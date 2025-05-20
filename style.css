@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20240528/pngtree-background-of-monitor-computer-with-online-game-streaming-desktop-image_15734081.jpg");
+}
+
+.ACSdetalhes {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://4kwallpapers.com/images/wallpapers/assassins-creed-3840x2160-16786.jpeg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+.COE33detalhes {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://images.alphacoders.com/139/1395944.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+.DDAdetalhes {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://images4.alphacoders.com/139/1395089.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+.SFdetalhes {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://images2.alphacoders.com/139/1394873.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+.TLOU2Rdetalhes {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+  background-image: url("https://i.redd.it/24qzdk20hf4c1.png");
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: center, center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-image: url("https://t4.ftcdn.net/jpg/07/69/62/99/360_F_769629905_QSbPhuGU5dCf82LLAw2AgWnKNuQGugeV.jpg");
+  background-color: #1f1f1f;
+  padding: 50px 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
+
+header h1,
+header h2,nav a {
+  text-shadow: 2px 2px 4px #000;
+  z-index: 2;
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5); 
+  z-index: 1;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(0,0,0,0), #121212);
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #a31515;
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #ccc;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff0000;
+}
+
+.catalogo {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.catalogo h2 {
+  margin-bottom: 30px;
+  font-size: 1.8em;
+}
+
+.jogos-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.jogo-card {
+  background-color: #1e1e1ecf;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s;
+}
+
+.jogo-card:hover {
+  transform: scale(1.05);
+}
+
+.jogo-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.jogo-card h3 {
+  margin: 10px 0 5px;
+  font-size: 1.2em;
+}
+
+.jogo-card p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+}
+
+.jogo-card button {
+  background-color: #ff00ea;
+  border: none;
+  color: #ffffff;
+  padding: 3px;
+  border-radius: 5px;
+  align-self: baseline;
+  cursor: pointer;
+}
+
+.jogo-card button:hover {
+  background-color: #cc0ebc;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.contato-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.formulario,
+.formas-de-contato {
+  flex: 1;
+  min-width: 300px;
+}
+
+.formulario h2,
+.formas-de-contato h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.formulario input,
+.formulario textarea,
+.formulario select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formulario input[type="submit"] {
+  background-color: #ff00ea;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.formulario input[type="submit"]:hover {
+  background-color: #cc0ebc;
+}
+
+.formulario fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+.detalhes {
+  display: inline-block;
+  background-color: #ff00ea;
+  color: #ffffff;
+  padding: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.detalhes:hover {
+  background-color: #cc0ebc;
+}
+
+.jogo-detalhes {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.jogo-card-grande {
+  background-color: #1e1e1ee1;
+  padding: 25px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.jogo-card-grande img {
+  display: block;
+  margin: 0 auto;           
+  width: 50%;             
+  max-width: 100%;          
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.jogo-card-grande h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.jogo-card-grande .preco {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.jogo-card-grande p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.btn-comprar {
+  display: inline-block;
+  background-color: #ff00ea;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+.btn-comprar:hover {
+  background-color: #cc0ebc;
+}
